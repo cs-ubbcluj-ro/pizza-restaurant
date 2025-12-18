@@ -1,5 +1,6 @@
 package ro.ubbcluj.apm.pr.domain.pizza;
 
-public interface Pizza {
-    double getPrice();
+import ro.ubbcluj.apm.pr.domain.Product;
+
+public interface Pizza extends Product {
 }

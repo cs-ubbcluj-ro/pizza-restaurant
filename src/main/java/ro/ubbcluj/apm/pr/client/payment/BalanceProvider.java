@@ -1,4 +1,4 @@
-package ro.ubbcluj.apm.pr.domain;
+package ro.ubbcluj.apm.pr.client.payment;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

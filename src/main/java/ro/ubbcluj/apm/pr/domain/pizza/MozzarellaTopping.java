@@ -1,7 +1,7 @@
 package ro.ubbcluj.apm.pr.domain.pizza;
 
-public class MozarellaTopping extends PizzaDecorator {
-    public MozarellaTopping(Pizza pizza) {
+public class MozzarellaTopping extends PizzaDecorator {
+    public MozzarellaTopping(Pizza pizza) {
         super(pizza);
     }
 
@@ -12,6 +12,6 @@ public class MozarellaTopping extends PizzaDecorator {
 
     @Override
     public String toString() {
-        return super.toString() + " + MozarellaTopping";
+        return super.toString() + " + " + getClass().getSimpleName();
     }
 }

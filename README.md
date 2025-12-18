@@ -27,4 +27,5 @@ mvn clean install
 ```
 
 ## Useful links
+
 - [Design Patterns](https://refactoring.guru/design-patterns)
